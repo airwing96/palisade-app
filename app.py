@@ -115,4 +115,17 @@ with tab1:
 with tab2:
     st.markdown("### 🧼 전문가 세차 8단계")
     guide = {
-        "1. 중성 세차": "고압수 후 도장면 손상 없는 중성 세정", "2. 2PH 세차":
+        "1. 중성 세차": "고압수 후 도장면 손상 없는 중성 세정", "2. 2PH 세차": "알칼리+중성 교차 세정",
+        "3. 3PH 세차": "산성-알칼리-중성 마스터 프로세스", "4. 유막/발수": "산화세륨 유막제거 및 코팅",
+        "5. 휠/타이어": "분진 제거 및 타이어 보습", "6. 외장 왁스": "물왁스/고체왁스 LSP 시공",
+        "7. 실내 세정": "내장재 정밀 클리닝", "8. 시트 코팅": "가죽 이염 방지 보호"
+    }
+    for k, v in guide.items():
+        st.markdown(f"<div class='premium-card'><b>{k}</b><br><small>{v}</small></div>", unsafe_allow_html=True)
+
+with tab3:
+    st.write("일정 및 회원 관리 섹션 (기존 기능 유지)")
+
+# 사이드바 (유가 정보)
+st.sidebar.markdown("### ⛽ 오천읍 최저가 유가")
+st.sidebar.markdown("<div class='premium-card'><b>GS칼텍스</b>: 1,615원<br><b>S-OIL</b>: 1,598원</div>", unsafe_allow_html=True)
