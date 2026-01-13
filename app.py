@@ -159,6 +159,3 @@ st.markdown("""
         <div style="text-align:center; color:#94a3b8;"><span style="font-size:20px;">👤</span><br><span style="font-size:10px;">MY</span></div>
     </div>
     """, unsafe_allow_html=True)
-    </div>
-    """, unsafe_allow_html=True)
-
